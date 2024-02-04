@@ -1,0 +1,3 @@
+- name: Delete existing artifacts
+  run: |
+    rm -rf ${{ runner.workspace }}/github-pages
